@@ -1,6 +1,6 @@
 # Seq.App.HttpRequest [![Build status](https://ci.appveyor.com/api/projects/status/63ki29bjjgk8htn3/branch/dev?svg=true)](https://ci.appveyor.com/project/datalust/seq-app-httprequest/branch/dev) [![NuGet Package](https://img.shields.io/nuget/vpre/seq.app.httprequest)](https://nuget.org/packages/seq.app.httprequest)
 
-Send events and notifications from Seq to a remote HTTP/REST/WebHook endpoint. Requires Seq 2021.4 or better.
+Send events and notifications from Seq to a remote HTTP/REST/Webhook endpoint. Requires Seq 2021.4 or better.
 
 ## Getting started
 
@@ -34,7 +34,7 @@ The URL and body settings are templates that use braces to insert data from the 
 
 To send a well-formed JSON payload based on event properties, construct a Seq object literal, and place it between spaced braces. For example:
 
-```~~~~
+```
 { {
    Timestamp: @t,
    Source: 'Seq',
